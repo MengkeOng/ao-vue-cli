@@ -1,0 +1,165 @@
+html {
+  background: #f1f1f1;
+  font-size: 14px;
+}
+textarea {
+  resize: vertical;
+}
+.pos-abs {
+  position: absolute;
+}
+.pos-rel {
+  position: relative;
+}
+.pos-fixed {
+  position: fixed;
+}
+.pos-sticky {
+  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.strong {
+  font-weight: bold;
+}
+.table-simple {
+  width: 100%;
+}
+.table-simple td {
+  padding: 5px;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.table-nowrap th,
+.table-nowrap td,
+.table-th-nowrap th {
+  white-space: nowrap;
+}
+.pre-wrap {
+  white-space: pre-wrap;
+}
+.text-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+.text-break {
+  word-break: break-all;
+}
+.no-pointer-events {
+  pointer-events: none;
+}
+.transition-all {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 100ms;
+}
+.fa-spin-fast {
+  animation: fa-spin 0.75s infinite linear;
+}
+.animated {
+  animation-duration: 0.377s;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.nprogress-container {
+  position: fixed !important;
+  width: 100%;
+  height: 50px;
+  z-index: 2048;
+  pointer-events: none;
+
+  #nprogress {
+    $color: #48e79a;
+
+    .bar {
+      background: $color;
+    }
+    .peg {
+      box-shadow: 0 0 10px $color, 0 0 5px $color;
+    }
+
+    .spinner-icon {
+      border-top-color: $color;
+      border-left-color: $color;
+    }
+  }
+}
+
+.table {
+  width: 100%;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex1 {
+  flex: 1;
+}
+.flex-middle {
+  align-items: center;
+}
+.flex-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.flex-between {
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-around {
+  justify-content: space-around;
+  align-items: center;
+}
+
+// bulma has not a classname like bootstrap
+.is-block {
+  display: block;
+  width: 100%;
+}
+.self-end {
+  align-self: flex-end !important;
+}
+.justify-end {
+  justify-content: flex-end !important;
+}
+.hide-input {
+  display: inline-block;
+  min-width: 100px;
+  height: 24px;
+  background: transparent;
+  border-color: transparent;
+  border-radius: 0;
+}
+.hide-input.isEdit {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  border-color: #d2d6de;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  &.is-danger {
+    border-color: #ff3860;
+    &:focus {
+      outline: none;
+      border-color: #ff3860;
+      -webkit-box-shadow: inset 0 1px 1px #ff3860, 0 0 8px #ff3860;
+    }
+  }
+}
+.font-1 {
+  font-size: 1em;
+}
+.breadcrumb > li > .active {
+  padding: 0.5em 0.75em
+}

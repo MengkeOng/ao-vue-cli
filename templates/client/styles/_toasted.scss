@@ -1,0 +1,18 @@
+#toasted-container.bottom-right {
+  right: 1em !important;
+  bottom: 1em !important;
+}
+
+#toasted-container .toasted {
+  font-size: 14px !important;
+  -webkit-font-smoothing: auto;
+  > .action {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

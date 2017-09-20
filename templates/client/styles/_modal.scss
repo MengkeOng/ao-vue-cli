@@ -1,0 +1,19 @@
+.modal {
+  z-index: 1986;
+}
+
+.slide-modal > .modal-close {
+  z-index: 10001;
+  &:hover {
+    background-color: #fff;
+  }
+  &:before,&:after {
+    background-color: #a4a4a4;
+  }
+  &:before {
+    width: 120%;
+  }
+  &:after {
+    height: 120%;
+  }
+}

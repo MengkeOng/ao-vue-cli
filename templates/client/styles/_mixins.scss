@@ -1,0 +1,17 @@
+@mixin radius($px) {
+  border-radius: $px;
+}
+@mixin rotate($deg){
+  transform: rotate($deg);
+}
+@mixin translate($x,$y){
+  transform: translate($x,$y);
+}
+@mixin translate3d($x,$y,$z){
+  transform: translate($x,$y,$z);
+}
+@mixin line-clamp($line) {
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+}

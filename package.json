@@ -1,0 +1,20 @@
+{
+  "name": "ao-vue-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "vue": "./bin/vue-cli.js"
+  },
+  "main": "bin/vue-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "ejs": "^2.5.7",
+    "mkdirp": "^0.5.1",
+    "sorted-object": "^2.0.1"
+  }
+}
